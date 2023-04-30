@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Project 2</title>
+    <title>Case Study of Tavern Team</title>
     <meta name="description" content="Case study page of Project" />
 
     <link rel="stylesheet" href="css/style.css" />
@@ -22,12 +22,12 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./assets/png/john-doe.png"
-              alt="Ram Maheshwari Logo Image"
+              src="./assets/png/tj.png"
+              alt="Theodore Mirenda Logo Image"
               class="header__logo-img"
             />
           </div>
-          <span class="header__logo-sub">John Doe</span>
+          <span class="header__logo-sub">Theodore Mirenda</span>
         </div>
         <div class="header__main">
           <ul class="header__links">
@@ -84,20 +84,15 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Project 2</h1>
-        <!-- <div class="project-cs-hero__info"> -->
-          <!-- <p class="text-primary"> -->
-            <div class="Configurators">
-
-            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hey All!<br><br>Here&#39;s how I procedurally generated an irregular grid for my little indie game!<br><br>A thread 🧵
-              <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a>, <a href="https://twitter.com/hashtag/indiedev?src=hash&amp;ref_src=twsrc%5Etfw">#indiedev</a> <a href="https://twitter.com/hashtag/screenshotsaturday?src=hash&amp;ref_src=twsrc%5Etfw">#screenshotsaturday</a>
-              <a href="https://t.co/zH2Bthapzi">pic.twitter.com/zH2Bthapzi</a></p>&mdash; TJ (@TJGameDev) <a href="https://twitter.com/TJGameDev/status/1634548923300757504?ref_src=twsrc%5Etfw">March 11, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-            <!-- </p> -->
-        <!-- </div> -->
-        <div class="project-cs-hero__cta">
-          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+        <h1 class="heading-primary">Client Prediction, Server Reconciliation</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Creating a Server Authoritative game which feels responsive on the player by utilizating client prediction and server reconciliation
+          </p>
         </div>
+        <!-- <div class="project-cs-hero__cta">
+          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+        </div> -->
       </div>
     </section>
     <section class="project-details">
@@ -105,7 +100,7 @@
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
             <img
-              src="./assets/jpeg/project-mockup-example.jpeg"
+              src="./assets/png/clientpredicitonserverreconciliation.png"
               alt="Project Image"
               class="project-details__showcase-img"
             />
@@ -114,40 +109,25 @@
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
+                I was contracted to build a server authoritative movement system for a client using Netcode for GameObjects. The local player does not feel any delay due to the client prediction on its end, however the server replicates the inputs of the client and then transmits the resulting position to the client. The client then reconciles its position with the server. 
+                This is done by the client keeping a buffer of the last 10 inputs and then replaying them on the client. The client then corrects its position to the server’s position. This is done to prevent cheating and to make sure that the server.
               </p>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
-              </p>
+
+              <img
+              src="./assets/png/SA.gif"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+
+
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">React</div>
-                <div class="skills__skill">SASS</div>
-                <div class="skills__skill">GIT</div>
-                <div class="skills__skill">Shopify</div>
-                <div class="skills__skill">Wordpress</div>
-                <div class="skills__skill">Google ADS</div>
-                <div class="skills__skill">Facebook Ads</div>
-                <div class="skills__skill">Android</div>
-                <div class="skills__skill">IOS</div>
+                <div class="skills__skill">Unity’s Netcode for Game Objects</div>
               </div>
             </div>
-            <div class="project-details__links">
+            <!-- <div class="project-details__links">
               <h3 class="project-details__content-title">See Live</h3>
               <a
                 href="#"
@@ -161,7 +141,7 @@
                 target="_blank"
                 >Code Link</a
               >
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
